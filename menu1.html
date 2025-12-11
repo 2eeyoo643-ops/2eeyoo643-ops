@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            padding:0;
+            margin:0;
+        }
+        .clear{
+            clear:both;
+        }
+
+        body{
+            text-align: center;
+            background-color: #ff8400;
+            align-content: center;
+        }
+        @font-face {
+        font-family: 'Paperozi';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-display: swap;
+        }
+        p{
+            color: white;
+            font-size: 25px;
+            margin-top:15px;
+            margin-bottom:7px;
+         }
+
+        
+        #logo{
+            margin-top:20px;
+            margin-left:450px;
+            float:left;
+            width:800px;
+            height:200px;
+        }
+        #top{
+            color: white;
+            float:right;
+            margin:30px 20px 0 0;
+            border:solid 1px red;
+        }
+
+         li{
+            list-style-type:none;
+        }
+        nav{
+            height:70px;
+            border-bottom:solid 1px #ffffff;
+            width:800px;
+        }
+        nav li{
+            float:left;
+        }
+           #item{
+        margin: 0 20px 0 20px;
+    }
+    .item{
+            height:40px;
+             display: inline;
+        }
+        .item a:link{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+        }
+        .item a:visited{
+            text-decoration:none;
+            color:rgb(222, 255, 222);
+        }
+        .item a:hover{
+            text-decoration:none;
+            color:rgb(54, 158, 46);
+        }
+        .item a:active{
+            text-decoration:none;
+            color:rgb(250, 251,250);
+        }
+    .menu{
+            clear:both;
+            background-color:#ff8400;
+            color:white;
+            text-align:center;
+            font-size:30px;
+            font-weight: bold;
+             margin: 0 auto;
+              width:100%;        
+            padding-left:0;    
+            padding-right:0; 
+            margin-left: 120px; 
+        }
+            .menu li{
+            display: inline;
+        }
+        .career{
+            color:white;
+            text-align:center;
+            font-size:30px;
+             margin: 0 auto;      
+        }
+        footer{
+     width: 100%;
+     background-color: #ffffff;
+        margin-top: 20px; 
+     padding: 15px 0;       
+     text-align: center;
+    }
+
+footer h1{
+    color: rgb(119, 119, 119);
+    font-size: 18px;             
+    font-weight: 500;
+    text-align: center;
+}
+footer p{
+     color: rgb(119, 119, 119);
+    font-size: 15px;             
+    font-weight: 500;
+    text-align: center;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width: 1024px){
+
+
+    #logo {
+        float: none;
+        width: auto;
+        height: auto;
+        margin: 20px auto 0;
+        text-align: center;
+    }
+
+    #logo img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .menu {
+        margin-left: 0;
+        width: 100%;
+        font-size: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .menu li {
+        display: inline-block;
+    }
+}
+
+
+@media(max-width: 600px){
+    .menu {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 768px){
+    .career {
+        font-size: 22px;
+        padding: 0 10px;
+        line-height: 1.6;
+    }
+}
+
+@media(max-width: 480px){
+    .career {
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width: 600px){
+    p {
+        font-size: 18px;
+    }
+}
+
+
+video {
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+}
+    </style>
+</head>
+<body>
+     <header>
+        <div id="logo">
+            <a href="index.html">
+            <img src="YDBB_logo.png">
+            </a>
+    <div class="clear"></div>
+    <nav>
+         <ul class="menu">
+              <li class="item"><a href="menu1.html">YDBB</a></li>
+            <li>ㅣ</li>
+            <li class="item"><a href="menu2.html">멤버소개</a></li>
+             <li>ㅣ</li>
+             <li class="item"><a href="menu3.html">바람</a></li>
+             <li>ㅣ</li>
+             <li class="item"><a href="menu4.html">밴드갤러리</a></li>
+             <li>ㅣ</li>
+             <li class="item"><a href="menu5.html">앨범</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+     <div class="clear"></div>
+     <p>"청춘을 노래하는 YDBB, 유다빈 밴드입니다!</p>
+      <video width="800" height="400" autoplay controls>
+        <source src="weareYDBB.mp4" type="video/mp4"></source>
+        <source src="weareYDBB.webm" type="video/webm"></source>
+        <source src="weareYDBB.ogg" type="video/ogg"></source></video><br><br>
+         <div class="clear"></div>
+
+        <p>유다빈밴드가 걸어온 길</p>
+        <ul class="career">
+            <li>.</li>
+             <li>.</li>
+              <li>.</li>
+            <li>그레이트 서울 인베이전 최종 3위</li>
+            <li>대학축제 </li>
+            <li>다양한 페스티벌 공연</li>
+             <li>.</li>
+              <li>.</li>
+               <li>.</li>
+        </ul>
+
+        <footer>
+            <p>YDBB ㅣVocal · Guitar · Keyboard · Bass · Drum</p> <br>
+             <h1>Leader & Drum  : LEE SANG WOON</h1> 
+               <h1>Vocal & Guitar  : YU DABIN</h1> 
+              <h1>Producing & Bass  : CHO YOUNG YUN</h1> 
+                <h1> Guitar  : LEE JUN HYUNG</h1> 
+               <h1>Producing & Keyboard  : YOU MYEONG JONG</h1> 
+        </footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            padding:0;
+            margin:0;
+        }
+        .clear{
+            clear:both;
+        }
+
+        body{
+            text-align: center;
+            background-color: #ff8400;
+        }
+        @font-face {
+        font-family: 'Paperozi';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-display: swap;
+        }
+        p {
+            color: white;
+            font-size: 25px;
+            margin-top:15px;
+            margin-bottom:7px;
+         }
+         h3{
+             color: white;
+            font-size: 45px;
+            margin-bottom:7px;
+         }
+
+        
+        #logo{
+            margin-top:20px;
+            margin-left:450px;
+            float:left;
+            width:800px;
+            height:200px;
+        }
+        #top{
+            color: white;
+            float:right;
+            margin:30px 20px 0 0;
+            border:solid 1px red;
+        }
+
+         li{
+            list-style-type:none;
+        }
+        nav{
+            height:70px;
+            border-bottom:solid 1px #ffffff;
+            width:800px;
+        }
+        nav li{
+            float:left;
+        }
+           #item{
+        margin: 0 20px 0 20px;
+    }
+    .item{
+            height:40px;
+             display: inline;
+        }
+        .item a:link{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+        }
+        .item a:visited{
+            text-decoration:none;
+            color:rgb(222, 255, 222);
+        }
+        .item a:hover{
+            text-decoration:none;
+            color:rgb(54, 158, 46);
+        }
+        .item a:active{
+            text-decoration:none;
+            color:rgb(250, 251,250);
+        }
+    .menu{
+            clear:both;
+            background-color:#ff8400;
+            color:white;
+            text-align:center;
+            font-size:30px;
+            font-weight: bold;
+             margin: 0 auto;
+              width:100%;        
+            padding-left:0;    
+            padding-right:0; 
+            margin-left: 120px; 
+        }
+            .menu li{
+            display: inline;
+            
+        }
+     .album_box{
+    width: 100%;
+    display: flex;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    align-items: center;      
+    gap: 130px;
+}
+    footer{
+     width: 100%;
+     background-color: #ffffff;
+        margin-top: 20px; 
+     padding: 15px 0;       
+     text-align: center;
+    }
+
+footer h1{
+    color: rgb(119, 119, 119);
+    font-size: 18px;             
+    font-weight: 500;
+    text-align: center;
+}
+footer p{
+     color: rgb(119, 119, 119);
+    font-size: 15px;             
+    font-weight: 500;
+    text-align: center;
+}
+
+.div-text h3{
+      margin: 0;
+    text-align: left;
+    font-size: 45px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+     <header>
+        <div id="logo">
+            <a href="index.html">
+            <img src="YDBB_logo.png">
+            </a>
+    <div class="clear"></div>
+    <nav>
+         <ul class="menu">
+             <li class="item"><a href="menu1.html">YDBB</a></li>
+            <li>ㅣ</li>
+            <li class="item"><a href="menu2.html">멤버소개</a></li>
+             <li>ㅣ</li>
+             <li class="item"><a href="menu3.html">바람</a></li>
+             <li>ㅣ</li>
+             <li class="item"><a href="menu4.html">밴드갤러리</a></li>
+             <li>ㅣ</li>
+             <li class="item"><a href="menu5.html">앨범</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="clear"></div>
+
+<div class="album_box">
+    <img src="1zip.jpg" width="350" height="350">
+    <div class="div-text">
+        <h3>"유다빈밴드 1집"</h3>
+    </div>
+</div>
+
+    <div class="album_box">
+    <img src="once.jpg" width="350" height="350">
+    <div class="div-text">
+        <h3>"ONCE"</h3>
+        <audio src="once.m4a" controls aytoplay loop></audio>
+    </div></div>
+
+        <div class="album_box">
+    <img src="hang.jpg" width="350" height="350">
+    <div class="div-text">
+        <h3>"항해"</h3>
+        <audio src="hh.m4a" controls aytoplay loop></audio>
+    </div></div>
+
+        <div class="album_box">
+    <img src="oh.jpg" width="350" height="350">
+    <div class="div-text">
+        <h3>"오늘은 잠에 들 거에요"</h3>
+        
+    </div></div>
+
+     <div class="album_box">
+    <img src="coda.jpg" width="350" height="350">
+    <div class="div-text">
+        <h3>"CODA"</h3>
+    </div></div>
+
+<div class="clear"></div>
+   <footer>
+            <p>YDBB ㅣVocal · Guitar · Keyboard · Bass · Drum</p> <br>
+             <h1>Leader & Drum  : LEE SANG WOON</h1> 
+               <h1>Vocal & Guitar  : YU DABIN</h1> 
+              <h1>Producing & Bass  : CHO YOUNG YUN</h1> 
+                <h1> Guitar  : LEE JUN HYUNG</h1> 
+               <h1>Producing & Keyboard  : YOU MYEONG JONG</h1> 
+        </footer>
+</body>
+</html>
